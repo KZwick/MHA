@@ -1,6 +1,6 @@
-# MHA 
-Mental Health Assistant
-Comp 2160 Project for Mobile app with Aras
+# MHA, Mental Health Assistant
+
+Comp 2160 Project for Mobile App I, with Aras Balali Moghaddam.
 
 Documenations and Information is in repository:
 https://github.com/KZwick/MHA
