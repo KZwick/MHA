@@ -33,3 +33,41 @@ Your Stress index score ( 1pt for each yes )
 18 – 22: 	Emergency! You must stop now, re-think how you are living, change your attitudes, 
 			and pay careful attention to diet, exercise, and relaxation.
 
+
+Here is the current version on the CMHA Web Site
+https://cmha.ca/whats-your-stress-index
+New scoring levels, the Text is very close if not the same.
+0-6
+7-14
+15-20
+21-25
+
+What’s Your Stress Index?
+Posted on May 24, 2012
+
+DO YOU FREQUENTLY:	YES	NO
+ 1 Neglect your diet?		
+ 2 Try to do everything yourself?		
+ 3 Blow up easily?		
+ 4 Seek unrealistic goals?		
+ 5 Fail to see the humour in situations others find funny?		
+ 6 Act rude?		
+ 7 Make a ‘big deal’ of everything?		
+ 8 Look to other people to make things happen?		
+ 9 Have difficulty making decisions		
+10 Complain you are disorganized?		
+11 Avoid people whose ideas are different from your own?		
+12 Keep everything inside?		
+13 Neglect exercise?		
+14 Have few supportive relationships?		
+15 Use sleeping pills and tranquilizers without a doctor’s approval?		
+16 Get too little rest?		
+17 Get angry when you are kept waiting?		
+18 Ignore stress symptoms?		
+19 Put things off until later?		
+20 Think there is only one right way to do something?		
+21Fail to build relaxation time into your day?		
+22 Gossip?		
+23 Race through the day?		
+24 Spend a lot of time complaining about the past?		
+25 Fail to get a break from noise and crowds?
