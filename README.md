@@ -1,7 +1,13 @@
-# MHA
+# MHA 
+Mental Health Assistant
 Comp 2160 Project for Mobile app with Aras
 
-The code is in it's own Repository KZwick/mobapp
+Documenations and Information is in repository:
+https://github.com/KZwick/MHA
+
+The code is in it's own repository KZwick/mobapp:
 https://github.com/KZwick/mobapp
 
-This is https://github.com/KZwick/MHA
+Project by:
+Panagiotis Papadopoulos (Taki)
+Kevin Zwick
