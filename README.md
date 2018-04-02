@@ -10,4 +10,5 @@ https://github.com/KZwick/mobapp
 
 Project by:
 Panagiotis Papadopoulos (Taki)
+and
 Kevin Zwick
