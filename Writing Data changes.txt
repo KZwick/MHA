@@ -1,0 +1,76 @@
+*** Class Data Types ***
+
+// for Firestore
+    private FirebaseFirestore mFirestore;
+	
+*** OnCreate changes ****
+
+mFirestore = FirebaseFirestore.getInstance();
+
+*** med info clear(View view) **** Not changed
+
+public void clear(View v){
+        medName.setText("");
+        dos.setText("");
+        pillFreq.setText("");
+    }
+	
+*** edit to layout of the button Add *****
+android:clickable="true"
+android:onClick="clickSubmit"
+
+
+***  onclick method *****
+ public void clickSubmit(View view){
+        submitData(view);
+    }
+
+	
+
+*** new method to write data to database ****	
+
+private void submitData(View view){
+
+	// Convert input data to Strings and java.util.Date
+		String sMedication = medName.getText().toString();
+		String sDosage = dos.getText().toString();
+		String sPillsPer = pillFreq.getText().toString();
+		// Using java.util.Date
+		java.util.Date refillDate = calRefill.getTime();
+	
+	// get the current user and their email
+		FirebaseUser mUser= FirebaseAuth.getInstance().getCurrentUser();
+		String mUserEmail = mUser.getEmail();
+	
+	// put the input data into the Model
+        Medication oMed = new Medication();
+        oMed.setMedname(sMedication);
+        oMed.setMeddosage(sDosage);
+        oMed.setMedinstruct(sPillsPer);
+        oMed.setRefilldate(refillDate);
+		
+	// the document using their email, then collection "Medications"
+        CollectionReference UserMeds = mFirestore.collection("Users")
+                .document(mUserEmail).collection("Medications");
+				
+	// add the data to the above sub collection
+        UserMeds.add(oMed);
+		
+		
+	Toast.makeText(this, "Medication Added", Toast.LENGTH_LONG).show();
+
+        clear(view);
+		
+	**** Info for Professional *****	
+name = (EditText) findViewById(R.id.nameEditText);
+tel = (EditText) findViewById(R.id.telEditText);
+address = (EditText) findViewById(R.id.addressEditText);
+
+this.name = name;
+this.phone = phone;
+this.address1 = address1;
+        //this.address2 = address2;
+this.city = city;
+
+Spinner mySpinner=(Spinner) findViewById(R.id.your_spinner);
+String text = mySpinner.getSelectedItem().toString();
